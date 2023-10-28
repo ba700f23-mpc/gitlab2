@@ -4,3 +4,6 @@
 
 select count(*)
 from customers;
+
+select count(*) as GENDER
+	from sakila.customer;
